@@ -1,0 +1,7 @@
+v 4
+file . "Encoder4x2_tb.vhd" "00217cebc33795c451fb5d1bf630d3af99a80e05" "20240304072826.408":
+  entity encoder4x2_tb at 1( 0) + 0 on 13;
+  architecture behavior of encoder4x2_tb at 11( 241) + 0 on 14;
+file . "Encoder4x2.vhd" "82bd7ae09cd4100bbf0555202ac2e0d4820fdf38" "20240304072826.383":
+  entity encoder4x2 at 1( 0) + 0 on 11;
+  architecture behavioral of encoder4x2 at 23( 616) + 0 on 12;

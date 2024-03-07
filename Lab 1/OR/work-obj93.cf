@@ -1,0 +1,10 @@
+v 4
+file . "OR_4Bit.vhd" "d64ad58214343361a42422b9c7e42c43ea0085a9" "20240226123655.792":
+  entity or_4bit at 1( 0) + 0 on 57;
+  architecture behavioral of or_4bit at 12( 202) + 0 on 58;
+file . "OR_2Bit.vhd" "0d795fe3b020a11d862084b3a049d1750f0f8e9b" "20240226123655.765":
+  entity or_2bit at 1( 0) + 0 on 55;
+  architecture behavioral of or_2bit at 12( 187) + 0 on 56;
+file . "OR_4Bit_tb.vhd" "1756c8ba997ef1ffd43f2cc0a262fe5d5f0a0ecd" "20240226123655.823":
+  entity or_4bit_tb at 1( 0) + 0 on 59;
+  architecture behavior of or_4bit_tb at 11( 235) + 0 on 60;

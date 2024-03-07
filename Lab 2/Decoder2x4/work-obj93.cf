@@ -1,0 +1,7 @@
+v 4
+file . "Decoder2x4_tb.vhd" "d23f8687df177e79b92def5c570faeb2b96cc46c" "20240304072540.579":
+  entity decoder2x4_tb at 1( 0) + 0 on 13;
+  architecture behavior of decoder2x4_tb at 11( 241) + 0 on 14;
+file . "Decoder2x4.vhd" "32b732dfdd746d4b5ea7dd7d787161cb8aec3a2a" "20240304072540.531":
+  entity decoder2x4 at 1( 0) + 0 on 11;
+  architecture behavioral of decoder2x4 at 22( 586) + 0 on 12;

@@ -1,0 +1,68 @@
+$date
+  Mon Mar 04 10:55:40 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module decoder2x4_tb $end
+$var reg 1 ! i0 $end
+$var reg 1 " i1 $end
+$var reg 1 # o0 $end
+$var reg 1 $ o1 $end
+$var reg 1 % o2 $end
+$var reg 1 & o3 $end
+$scope module uut $end
+$var reg 1 ' i0 $end
+$var reg 1 ( i1 $end
+$var reg 1 ) o0 $end
+$var reg 1 * o1 $end
+$var reg 1 + o2 $end
+$var reg 1 , o3 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+1#
+0$
+0%
+0&
+0'
+0(
+1)
+0*
+0+
+0,
+#100000000
+#120000000
+1!
+0#
+1$
+1'
+0)
+1*
+#140000000
+0!
+1"
+0$
+1%
+0'
+1(
+0*
+1+
+#160000000
+1!
+0%
+1&
+1'
+0+
+1,
+#180000000
