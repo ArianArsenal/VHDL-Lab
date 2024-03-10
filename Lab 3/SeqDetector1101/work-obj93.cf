@@ -1,0 +1,10 @@
+v 4
+file . "SeqDetector1101.vhd" "13f433c40523c106d5c05d6a786cdf9231b6a479" "20240310201431.850":
+  entity seqdetector1101 at 20( 494) + 0 on 91;
+  architecture behavioral of seqdetector1101 at 40( 1031) + 0 on 92;
+file . "FreqDivider.vhd" "21d1029a0f670ed2d5bcca536ba885508f9ac8f4" "20240310201431.830":
+  entity freqdivider at 20( 490) + 0 on 89;
+  architecture behavioral of freqdivider at 37( 956) + 0 on 90;
+file . "SeqDetector1101_tb.vhd" "145f8b3f01c77c2512962157a5f345ed1855a43b" "20240310201431.872":
+  entity seqdetector1101_tb at 2( 2) + 0 on 93;
+  architecture behavior of seqdetector1101_tb at 12( 253) + 0 on 94;

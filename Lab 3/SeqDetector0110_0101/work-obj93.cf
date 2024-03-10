@@ -1,0 +1,7 @@
+v 4
+file . "SeqDetector0110_0101_tb.vhd" "a74190b111be4ff2e72e625a25cde41b942ebf33" "20240310204940.225":
+  entity seqdetector0110_0101_tb at 2( 2) + 0 on 21;
+  architecture behavior of seqdetector0110_0101_tb at 12( 263) + 0 on 22;
+file . "SeqDetector0110_0101.vhd" "af85676c6c05688caf0e8a16b9d7f55790586812" "20240310204940.197":
+  entity seqdetector0110_0101 at 1( 0) + 0 on 19;
+  architecture behavioral of seqdetector0110_0101 at 13( 245) + 0 on 20;
