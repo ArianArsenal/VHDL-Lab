@@ -1,0 +1,16 @@
+v 4
+file . "BCDAdder4Bit_tb.vhd" "fd663807201af315c64d8184c3f543c866547f42" "20240415082616.144":
+  entity bcdadder4bit_tb at 2( 2) + 0 on 19;
+  architecture behavior of bcdadder4bit_tb at 8( 102) + 0 on 20;
+file . "RippleAdder4Bit.vhd" "fc751183ccd65f4f12e9b354e265bfc061f2ee5a" "20240415082616.103":
+  entity rippleadder4bit at 1( 0) + 0 on 15;
+  architecture behavioral of rippleadder4bit at 14( 320) + 0 on 16;
+file . "HalfAdder.vhd" "e2a8ed70d102be2bf7a2be56eff59ca1786a31f7" "20240415082616.062":
+  entity halfadder at 1( 0) + 0 on 11;
+  architecture behavioral of halfadder at 11( 145) + 0 on 12;
+file . "FullAdder.vhd" "b332c494dd956f7ec38bfa6ce848f0687a5e670b" "20240415082616.081":
+  entity full_adder at 1( 0) + 0 on 13;
+  architecture behavioral of full_adder at 12( 253) + 0 on 14;
+file . "BCDAdder4Bit.vhd" "9202e4cb3daf15f0de9051046be9c50ac733d5b1" "20240415082616.123":
+  entity bcdadder4bit at 2( 2) + 0 on 17;
+  architecture behavioral of bcdadder4bit at 12( 278) + 0 on 18;

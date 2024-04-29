@@ -1,24 +1,17 @@
-
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;
- 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---USE ieee.numeric_std.ALL;
- 
+
 ENTITY SeqDetector1101_tb IS
 END SeqDetector1101_tb;
  
 ARCHITECTURE behavior OF SeqDetector1101_tb IS 
  
-    -- Component Declaration for the Unit Under Test (UUT)
- 
     COMPONENT SeqDetector1101
     PORT(
          data : IN  std_logic;
          clk : IN  std_logic;
-         VALID : OUT  std_logic;
-         clk_out : out STD_LOGIC
+         VALID : OUT  std_logic
+         --clk_out : out STD_LOGIC
         );
     END COMPONENT;
     
@@ -29,7 +22,7 @@ ARCHITECTURE behavior OF SeqDetector1101_tb IS
 
  	--Outputs
    signal VALID : std_logic;
-   signal clk_out :std_logic;
+   --signal clk_out :std_logic;
 
    -- Clock period definitions
    constant clk_period : time := 10 ns;
@@ -40,8 +33,8 @@ BEGIN
    uut: SeqDetector1101 PORT MAP (
           data => data,
           clk => clk,
-          VALID => VALID,
-          clk_out => clk_out
+          VALID => VALID
+         --clk_out => clk_out
         );
 
    -- Clock process definitions

@@ -1,0 +1,680 @@
+$date
+  Mon Apr 15 11:56:16 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module bcdadder4bit_tb $end
+$var reg 4 ! a[3:0] $end
+$var reg 4 " b[3:0] $end
+$var reg 4 # s[3:0] $end
+$var reg 1 $ c $end
+$scope module uut $end
+$var reg 4 % a[3:0] $end
+$var reg 4 & b[3:0] $end
+$var reg 4 ' s[3:0] $end
+$var reg 1 ( c $end
+$var reg 4 ) s0[3:0] $end
+$var reg 1 * c0 $end
+$var reg 1 + c1 $end
+$var reg 1 , and1 $end
+$var reg 1 - andd2 $end
+$var reg 1 . or1 $end
+$scope module ripple1 $end
+$var reg 4 / a[3:0] $end
+$var reg 4 0 b[3:0] $end
+$var reg 1 1 c_in $end
+$var reg 4 2 sum[3:0] $end
+$var reg 1 3 c_out $end
+$var reg 4 4 c[3:0] $end
+$scope module fa0 $end
+$var reg 1 5 a $end
+$var reg 1 6 b $end
+$var reg 1 7 c_in $end
+$var reg 1 8 s $end
+$var reg 1 9 c_out $end
+$var reg 1 : e1 $end
+$var reg 1 ; e2 $end
+$var reg 1 < e3 $end
+$scope module hf1 $end
+$var reg 1 = a $end
+$var reg 1 > b $end
+$var reg 1 ? s $end
+$var reg 1 @ c $end
+$upscope $end
+$scope module hf2 $end
+$var reg 1 A a $end
+$var reg 1 B b $end
+$var reg 1 C s $end
+$var reg 1 D c $end
+$upscope $end
+$upscope $end
+$scope module fa1 $end
+$var reg 1 E a $end
+$var reg 1 F b $end
+$var reg 1 G c_in $end
+$var reg 1 H s $end
+$var reg 1 I c_out $end
+$var reg 1 J e1 $end
+$var reg 1 K e2 $end
+$var reg 1 L e3 $end
+$scope module hf1 $end
+$var reg 1 M a $end
+$var reg 1 N b $end
+$var reg 1 O s $end
+$var reg 1 P c $end
+$upscope $end
+$scope module hf2 $end
+$var reg 1 Q a $end
+$var reg 1 R b $end
+$var reg 1 S s $end
+$var reg 1 T c $end
+$upscope $end
+$upscope $end
+$scope module fa2 $end
+$var reg 1 U a $end
+$var reg 1 V b $end
+$var reg 1 W c_in $end
+$var reg 1 X s $end
+$var reg 1 Y c_out $end
+$var reg 1 Z e1 $end
+$var reg 1 [ e2 $end
+$var reg 1 \ e3 $end
+$scope module hf1 $end
+$var reg 1 ] a $end
+$var reg 1 ^ b $end
+$var reg 1 _ s $end
+$var reg 1 ` c $end
+$upscope $end
+$scope module hf2 $end
+$var reg 1 a a $end
+$var reg 1 b b $end
+$var reg 1 c s $end
+$var reg 1 d c $end
+$upscope $end
+$upscope $end
+$scope module fa3 $end
+$var reg 1 e a $end
+$var reg 1 f b $end
+$var reg 1 g c_in $end
+$var reg 1 h s $end
+$var reg 1 i c_out $end
+$var reg 1 j e1 $end
+$var reg 1 k e2 $end
+$var reg 1 l e3 $end
+$scope module hf1 $end
+$var reg 1 m a $end
+$var reg 1 n b $end
+$var reg 1 o s $end
+$var reg 1 p c $end
+$upscope $end
+$scope module hf2 $end
+$var reg 1 q a $end
+$var reg 1 r b $end
+$var reg 1 s s $end
+$var reg 1 t c $end
+$upscope $end
+$upscope $end
+$upscope $end
+$scope module ripple2 $end
+$var reg 4 u a[3:0] $end
+$var reg 4 v b[3:0] $end
+$var reg 1 w c_in $end
+$var reg 4 x sum[3:0] $end
+$var reg 1 y c_out $end
+$var reg 4 z c[3:0] $end
+$scope module fa0 $end
+$var reg 1 { a $end
+$var reg 1 | b $end
+$var reg 1 } c_in $end
+$var reg 1 !" s $end
+$var reg 1 "" c_out $end
+$var reg 1 #" e1 $end
+$var reg 1 $" e2 $end
+$var reg 1 %" e3 $end
+$scope module hf1 $end
+$var reg 1 &" a $end
+$var reg 1 '" b $end
+$var reg 1 (" s $end
+$var reg 1 )" c $end
+$upscope $end
+$scope module hf2 $end
+$var reg 1 *" a $end
+$var reg 1 +" b $end
+$var reg 1 ," s $end
+$var reg 1 -" c $end
+$upscope $end
+$upscope $end
+$scope module fa1 $end
+$var reg 1 ." a $end
+$var reg 1 /" b $end
+$var reg 1 0" c_in $end
+$var reg 1 1" s $end
+$var reg 1 2" c_out $end
+$var reg 1 3" e1 $end
+$var reg 1 4" e2 $end
+$var reg 1 5" e3 $end
+$scope module hf1 $end
+$var reg 1 6" a $end
+$var reg 1 7" b $end
+$var reg 1 8" s $end
+$var reg 1 9" c $end
+$upscope $end
+$scope module hf2 $end
+$var reg 1 :" a $end
+$var reg 1 ;" b $end
+$var reg 1 <" s $end
+$var reg 1 =" c $end
+$upscope $end
+$upscope $end
+$scope module fa2 $end
+$var reg 1 >" a $end
+$var reg 1 ?" b $end
+$var reg 1 @" c_in $end
+$var reg 1 A" s $end
+$var reg 1 B" c_out $end
+$var reg 1 C" e1 $end
+$var reg 1 D" e2 $end
+$var reg 1 E" e3 $end
+$scope module hf1 $end
+$var reg 1 F" a $end
+$var reg 1 G" b $end
+$var reg 1 H" s $end
+$var reg 1 I" c $end
+$upscope $end
+$scope module hf2 $end
+$var reg 1 J" a $end
+$var reg 1 K" b $end
+$var reg 1 L" s $end
+$var reg 1 M" c $end
+$upscope $end
+$upscope $end
+$scope module fa3 $end
+$var reg 1 N" a $end
+$var reg 1 O" b $end
+$var reg 1 P" c_in $end
+$var reg 1 Q" s $end
+$var reg 1 R" c_out $end
+$var reg 1 S" e1 $end
+$var reg 1 T" e2 $end
+$var reg 1 U" e3 $end
+$scope module hf1 $end
+$var reg 1 V" a $end
+$var reg 1 W" b $end
+$var reg 1 X" s $end
+$var reg 1 Y" c $end
+$upscope $end
+$scope module hf2 $end
+$var reg 1 Z" a $end
+$var reg 1 [" b $end
+$var reg 1 \" s $end
+$var reg 1 ]" c $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0000 !
+b0000 "
+b0000 #
+0$
+b0000 %
+b0000 &
+b0000 '
+0(
+b0000 )
+0*
+0+
+0,
+0-
+0.
+b0000 /
+b0000 0
+01
+b0000 2
+03
+b0000 4
+05
+06
+07
+08
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+0L
+0M
+0N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+0Z
+0[
+0\
+0]
+0^
+0_
+0`
+0a
+0b
+0c
+0d
+0e
+0f
+0g
+0h
+0i
+0j
+0k
+0l
+0m
+0n
+0o
+0p
+0q
+0r
+0s
+0t
+b0000 u
+b0000 v
+0w
+b0000 x
+0y
+b0000 z
+0{
+0|
+0}
+0!"
+0""
+0#"
+0$"
+0%"
+0&"
+0'"
+0("
+0)"
+0*"
+0+"
+0,"
+0-"
+0."
+0/"
+00"
+01"
+02"
+03"
+04"
+05"
+06"
+07"
+08"
+09"
+0:"
+0;"
+0<"
+0="
+0>"
+0?"
+0@"
+0A"
+0B"
+0C"
+0D"
+0E"
+0F"
+0G"
+0H"
+0I"
+0J"
+0K"
+0L"
+0M"
+0N"
+0O"
+0P"
+0Q"
+0R"
+0S"
+0T"
+0U"
+0V"
+0W"
+0X"
+0Y"
+0Z"
+0["
+0\"
+0]"
+#100000000
+b0010 !
+b1010 "
+b0010 #
+1$
+b0010 %
+b1010 &
+b0010 '
+1(
+b1100 )
+1+
+1,
+1.
+b0010 /
+b1010 0
+b1100 2
+b0010 4
+1E
+1F
+1I
+1K
+1M
+1N
+1P
+1W
+1X
+1b
+1c
+1f
+1h
+1j
+1n
+1o
+1q
+1s
+b1100 u
+b0110 v
+b0010 x
+1y
+b1100 z
+1/"
+11"
+13"
+17"
+18"
+1:"
+1<"
+1>"
+1?"
+0A"
+1B"
+0C"
+1D"
+1F"
+1G"
+0H"
+1I"
+0J"
+0L"
+1N"
+1P"
+0Q"
+1R"
+1S"
+1U"
+1V"
+1X"
+1Z"
+1["
+0\"
+1]"
+#120000000
+b0110 !
+b0010 "
+b1000 #
+0$
+b0110 %
+b0010 &
+b1000 '
+0(
+b1000 )
+0+
+0,
+0.
+b0110 /
+b0010 0
+b1000 2
+b0110 4
+1U
+0X
+1Y
+1Z
+1\
+1]
+1_
+1a
+0c
+1d
+0f
+1g
+1h
+0j
+0n
+0o
+0q
+1r
+1s
+b1000 u
+b0000 v
+b1000 x
+0y
+b0000 z
+0/"
+01"
+03"
+07"
+08"
+0:"
+0<"
+0>"
+0?"
+0A"
+0B"
+0C"
+0D"
+0F"
+0G"
+0H"
+0I"
+0J"
+0L"
+1N"
+0P"
+1Q"
+0R"
+1S"
+0U"
+1V"
+1X"
+1Z"
+0["
+1\"
+0]"
+#140000000
+b0011 !
+b0101 #
+0$
+b0011 %
+b0101 '
+0(
+b0101 )
+0,
+0.
+b0011 /
+b0101 2
+b0010 4
+15
+18
+1:
+1=
+1?
+1A
+1C
+0U
+1X
+0Y
+0Z
+0\
+0]
+0_
+0a
+1c
+0d
+0g
+0h
+0r
+0s
+b0101 u
+b0000 v
+b0101 x
+b0000 z
+1{
+1!"
+1#"
+1&"
+1("
+1*"
+1,"
+0/"
+01"
+03"
+07"
+08"
+0:"
+0<"
+1>"
+0?"
+1A"
+0B"
+1C"
+0D"
+1F"
+0G"
+1H"
+0I"
+1J"
+1L"
+0N"
+0P"
+0Q"
+0S"
+0V"
+0X"
+0Z"
+0["
+0\"
+#160000000
+b0001 !
+b0110 "
+b0111 #
+0$
+b0001 %
+b0110 &
+b0111 '
+0(
+b0111 )
+0,
+0-
+0.
+b0001 /
+b0110 0
+b0111 2
+b0000 4
+0E
+1H
+0I
+1J
+0K
+0M
+1O
+0P
+1Q
+1S
+1V
+0W
+1X
+0Y
+1Z
+0\
+1^
+1_
+1a
+0b
+1c
+0d
+0g
+0h
+0r
+0s
+b0111 u
+b0000 v
+b0111 x
+b0000 z
+1."
+0/"
+11"
+02"
+13"
+04"
+16"
+07"
+18"
+09"
+1:"
+1<"
+1>"
+0?"
+0@"
+1A"
+0B"
+1C"
+0D"
+0E"
+1F"
+0G"
+1H"
+0I"
+1J"
+0K"
+1L"
+0M"
+0N"
+0P"
+0Q"
+0S"
+0V"
+0X"
+0Z"
+0["
+0\"
+#180000000

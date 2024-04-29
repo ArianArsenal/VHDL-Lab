@@ -1,0 +1,930 @@
+$date
+  Sun Apr 21 21:41:35 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module shiftregister4b_tb $end
+$var reg 1 ! reset $end
+$var reg 1 " load $end
+$var reg 1 # l $end
+$var reg 1 $ r $end
+$var reg 4 % d[3:0] $end
+$var reg 4 & q[3:0] $end
+$var reg 1 ' clk $end
+$scope module uut $end
+$var reg 1 ( reset $end
+$var reg 1 ) load $end
+$var reg 1 * l $end
+$var reg 1 + r $end
+$var reg 4 , d[3:0] $end
+$var reg 4 - q[3:0] $end
+$var reg 1 . clk $end
+$var reg 4 / m[3:0] $end
+$var reg 4 0 q_tmp[3:0] $end
+$var reg 2 1 p[1:0] $end
+$var reg 1 2 valid $end
+$scope module priorityencoder1 $end
+$var reg 4 3 i[3:0] $end
+$var reg 2 4 o[1:0] $end
+$var reg 1 5 v $end
+$upscope $end
+$scope module mux3 $end
+$var reg 4 6 i[3:0] $end
+$var reg 2 7 s[1:0] $end
+$var reg 1 8 o $end
+$var reg 4 9 w[3:0] $end
+$upscope $end
+$scope module mux2 $end
+$var reg 4 : i[3:0] $end
+$var reg 2 ; s[1:0] $end
+$var reg 1 < o $end
+$var reg 4 = w[3:0] $end
+$upscope $end
+$scope module mux1 $end
+$var reg 4 > i[3:0] $end
+$var reg 2 ? s[1:0] $end
+$var reg 1 @ o $end
+$var reg 4 A w[3:0] $end
+$upscope $end
+$scope module mux0 $end
+$var reg 4 B i[3:0] $end
+$var reg 2 C s[1:0] $end
+$var reg 1 D o $end
+$var reg 4 E w[3:0] $end
+$upscope $end
+$scope module dff3 $end
+$var reg 1 F d $end
+$var reg 1 G load $end
+$var reg 1 H clk $end
+$var reg 1 I q $end
+$upscope $end
+$scope module dff2 $end
+$var reg 1 J d $end
+$var reg 1 K load $end
+$var reg 1 L clk $end
+$var reg 1 M q $end
+$upscope $end
+$scope module dff1 $end
+$var reg 1 N d $end
+$var reg 1 O load $end
+$var reg 1 P clk $end
+$var reg 1 Q q $end
+$upscope $end
+$scope module dff0 $end
+$var reg 1 R d $end
+$var reg 1 S load $end
+$var reg 1 T clk $end
+$var reg 1 U q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+1!
+0"
+0#
+0$
+b0000 %
+bUUUU &
+0'
+1(
+0)
+0*
+0+
+b0000 ,
+bUUUU -
+0.
+b0000 /
+bUUUU 0
+b00 1
+12
+b0001 3
+b00 4
+15
+b0U00 6
+b00 7
+08
+b0000 9
+bUU00 :
+b00 ;
+0<
+b0000 =
+bUU00 >
+b00 ?
+0@
+b0000 A
+bU000 B
+b00 C
+0D
+b0000 E
+0F
+1G
+0H
+UI
+0J
+1K
+0L
+UM
+0N
+1O
+0P
+UQ
+0R
+1S
+0T
+UU
+#5000000
+b0000 &
+1'
+b0000 -
+1.
+b0000 0
+b0000 6
+b0000 :
+b0000 >
+b0000 B
+1H
+0I
+1L
+0M
+1P
+0Q
+1T
+0U
+#10000000
+0'
+0.
+0H
+0L
+0P
+0T
+#15000000
+1'
+1.
+1H
+1L
+1P
+1T
+#20000000
+0'
+0.
+0H
+0L
+0P
+0T
+#25000000
+1'
+1.
+1H
+1L
+1P
+1T
+#30000000
+0'
+0.
+0H
+0L
+0P
+0T
+#35000000
+1'
+1.
+1H
+1L
+1P
+1T
+#40000000
+0'
+0.
+0H
+0L
+0P
+0T
+#45000000
+1'
+1.
+1H
+1L
+1P
+1T
+#50000000
+0'
+0.
+0H
+0L
+0P
+0T
+#55000000
+1'
+1.
+1H
+1L
+1P
+1T
+#60000000
+0'
+0.
+0H
+0L
+0P
+0T
+#65000000
+1'
+1.
+1H
+1L
+1P
+1T
+#70000000
+0'
+0.
+0H
+0L
+0P
+0T
+#75000000
+1'
+1.
+1H
+1L
+1P
+1T
+#80000000
+0'
+0.
+0H
+0L
+0P
+0T
+#85000000
+1'
+1.
+1H
+1L
+1P
+1T
+#90000000
+0'
+0.
+0H
+0L
+0P
+0T
+#95000000
+1'
+1.
+1H
+1L
+1P
+1T
+#100000000
+0!
+1"
+b0110 %
+0'
+0(
+1)
+b0110 ,
+0.
+b0110 /
+b01 1
+b0010 3
+b01 4
+b01 7
+b0010 :
+b01 ;
+1<
+b0010 =
+b0010 >
+b01 ?
+1@
+b0010 A
+b01 C
+0H
+1J
+0L
+1N
+0P
+0T
+#105000000
+b0110 &
+1'
+b0110 -
+1.
+b0110 0
+b0100 6
+b0110 :
+b1010 >
+b1000 B
+1H
+1L
+1M
+1P
+1Q
+1T
+#110000000
+0'
+0.
+0H
+0L
+0P
+0T
+#115000000
+1'
+1.
+1H
+1L
+1P
+1T
+#120000000
+0'
+0.
+0H
+0L
+0P
+0T
+#125000000
+1'
+1.
+1H
+1L
+1P
+1T
+#130000000
+0'
+0.
+0H
+0L
+0P
+0T
+#135000000
+1'
+1.
+1H
+1L
+1P
+1T
+#140000000
+0"
+1#
+0'
+0)
+1*
+0.
+b1100 /
+b10 1
+b0100 3
+b10 4
+b10 7
+18
+b0100 9
+b10 ;
+b0100 =
+b10 ?
+0@
+b0000 A
+b10 C
+1F
+0H
+0L
+0N
+0P
+0T
+#145000000
+b1100 &
+1'
+b1100 -
+1.
+b1000 /
+b1100 0
+b1010 :
+0<
+b0000 =
+b0000 B
+1H
+1I
+0J
+1L
+1P
+0Q
+1T
+#150000000
+0'
+0.
+0H
+0L
+0P
+0T
+#155000000
+b1000 &
+1'
+b1000 -
+1.
+b0000 /
+b1000 0
+b0000 6
+08
+b0000 9
+b0010 >
+0F
+1H
+1L
+0M
+1P
+1T
+#160000000
+0'
+0.
+0H
+0L
+0P
+0T
+#165000000
+b0000 &
+1'
+b0000 -
+1.
+b0000 0
+b0010 :
+1H
+0I
+1L
+1P
+1T
+#170000000
+0'
+0.
+0H
+0L
+0P
+0T
+#175000000
+1'
+1.
+1H
+1L
+1P
+1T
+#180000000
+0'
+0.
+0H
+0L
+0P
+0T
+#185000000
+1'
+1.
+1H
+1L
+1P
+1T
+#190000000
+0'
+0.
+0H
+0L
+0P
+0T
+#195000000
+1'
+1.
+1H
+1L
+1P
+1T
+#200000000
+0'
+0.
+0H
+0L
+0P
+0T
+#205000000
+1'
+1.
+1H
+1L
+1P
+1T
+#210000000
+0'
+0.
+0H
+0L
+0P
+0T
+#215000000
+1'
+1.
+1H
+1L
+1P
+1T
+#220000000
+0'
+0.
+0H
+0L
+0P
+0T
+#225000000
+1'
+1.
+1H
+1L
+1P
+1T
+#230000000
+0'
+0.
+0H
+0L
+0P
+0T
+#235000000
+1'
+1.
+1H
+1L
+1P
+1T
+#240000000
+0'
+0.
+0H
+0L
+0P
+0T
+#245000000
+1'
+1.
+1H
+1L
+1P
+1T
+#250000000
+0'
+0.
+0H
+0L
+0P
+0T
+#255000000
+1'
+1.
+1H
+1L
+1P
+1T
+#260000000
+0'
+0.
+0H
+0L
+0P
+0T
+#265000000
+1'
+1.
+1H
+1L
+1P
+1T
+#270000000
+0'
+0.
+0H
+0L
+0P
+0T
+#275000000
+1'
+1.
+1H
+1L
+1P
+1T
+#280000000
+0'
+0.
+0H
+0L
+0P
+0T
+#285000000
+1'
+1.
+1H
+1L
+1P
+1T
+#290000000
+0'
+0.
+0H
+0L
+0P
+0T
+#295000000
+1'
+1.
+1H
+1L
+1P
+1T
+#300000000
+0'
+0.
+0H
+0L
+0P
+0T
+#305000000
+1'
+1.
+1H
+1L
+1P
+1T
+#310000000
+0'
+0.
+0H
+0L
+0P
+0T
+#315000000
+1'
+1.
+1H
+1L
+1P
+1T
+#320000000
+0'
+0.
+0H
+0L
+0P
+0T
+#325000000
+1'
+1.
+1H
+1L
+1P
+1T
+#330000000
+0'
+0.
+0H
+0L
+0P
+0T
+#335000000
+1'
+1.
+1H
+1L
+1P
+1T
+#340000000
+0'
+0.
+0H
+0L
+0P
+0T
+#345000000
+1'
+1.
+1H
+1L
+1P
+1T
+#350000000
+0'
+0.
+0H
+0L
+0P
+0T
+#355000000
+1'
+1.
+1H
+1L
+1P
+1T
+#360000000
+0'
+0.
+0H
+0L
+0P
+0T
+#365000000
+1'
+1.
+1H
+1L
+1P
+1T
+#370000000
+0'
+0.
+0H
+0L
+0P
+0T
+#375000000
+1'
+1.
+1H
+1L
+1P
+1T
+#380000000
+0'
+0.
+0H
+0L
+0P
+0T
+#385000000
+1'
+1.
+1H
+1L
+1P
+1T
+#390000000
+0'
+0.
+0H
+0L
+0P
+0T
+#395000000
+1'
+1.
+1H
+1L
+1P
+1T
+#400000000
+0'
+0.
+0H
+0L
+0P
+0T
+#405000000
+1'
+1.
+1H
+1L
+1P
+1T
+#410000000
+0'
+0.
+0H
+0L
+0P
+0T
+#415000000
+1'
+1.
+1H
+1L
+1P
+1T
+#420000000
+0'
+0.
+0H
+0L
+0P
+0T
+#425000000
+1'
+1.
+1H
+1L
+1P
+1T
+#430000000
+0'
+0.
+0H
+0L
+0P
+0T
+#435000000
+1'
+1.
+1H
+1L
+1P
+1T
+#440000000
+0'
+0.
+0H
+0L
+0P
+0T
+#445000000
+1'
+1.
+1H
+1L
+1P
+1T
+#450000000
+0'
+0.
+0H
+0L
+0P
+0T
+#455000000
+1'
+1.
+1H
+1L
+1P
+1T
+#460000000
+0'
+0.
+0H
+0L
+0P
+0T
+#465000000
+1'
+1.
+1H
+1L
+1P
+1T
+#470000000
+0'
+0.
+0H
+0L
+0P
+0T
+#475000000
+1'
+1.
+1H
+1L
+1P
+1T
+#480000000
+0'
+0.
+0H
+0L
+0P
+0T
+#485000000
+1'
+1.
+1H
+1L
+1P
+1T
+#490000000
+0'
+0.
+0H
+0L
+0P
+0T
+#495000000
+1'
+1.
+1H
+1L
+1P
+1T
+#500000000
+0'
+0.
+0H
+0L
+0P
+0T

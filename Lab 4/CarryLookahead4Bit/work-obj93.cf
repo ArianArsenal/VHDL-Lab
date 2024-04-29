@@ -1,0 +1,13 @@
+v 4
+file . "CarryLookahead4Bit_tb.vhd" "913f94c66ba1aa4c0bdf8f89aa29bdb1ff4c3640" "20240408084116.666":
+  entity carrylookahead4bit_tb at 1( 0) + 0 on 35;
+  architecture behavior of carrylookahead4bit_tb at 8( 112) + 0 on 36;
+file . "HalfAdder.vhd" "e2a8ed70d102be2bf7a2be56eff59ca1786a31f7" "20240408084116.601":
+  entity halfadder at 1( 0) + 0 on 29;
+  architecture behavioral of halfadder at 11( 145) + 0 on 30;
+file . "FullAdder.vhd" "b332c494dd956f7ec38bfa6ce848f0687a5e670b" "20240408084116.622":
+  entity full_adder at 1( 0) + 0 on 31;
+  architecture behavioral of full_adder at 12( 253) + 0 on 32;
+file . "CarryLookahead4Bit.vhd" "f0d4b0c64a230c64761c7b410dfb8cc41badaac6" "20240408084116.645":
+  entity carrylookahead4bit at 1( 0) + 0 on 33;
+  architecture behavioral of carrylookahead4bit at 15( 308) + 0 on 34;

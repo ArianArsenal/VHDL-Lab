@@ -1,0 +1,19 @@
+v 4
+file . "CarrySelectAdder4Bit_tb.vhd" "f44feb3662392041278bb18ea1db98f58b672557" "20240408101854.490":
+  entity carryselectadder4bit_tb at 1( 0) + 0 on 53;
+  architecture behavior of carryselectadder4bit_tb at 8( 116) + 0 on 54;
+file . "CarryLookahead4Bit.vhd" "f0d4b0c64a230c64761c7b410dfb8cc41badaac6" "20240408101854.458":
+  entity carrylookahead4bit at 1( 0) + 0 on 51;
+  architecture behavioral of carrylookahead4bit at 15( 308) + 0 on 52;
+file . "FullAdder.vhd" "b332c494dd956f7ec38bfa6ce848f0687a5e670b" "20240408101854.398":
+  entity full_adder at 1( 0) + 0 on 47;
+  architecture behavioral of full_adder at 12( 253) + 0 on 48;
+file . "HalfAdder.vhd" "e2a8ed70d102be2bf7a2be56eff59ca1786a31f7" "20240408101854.365":
+  entity halfadder at 1( 0) + 0 on 45;
+  architecture behavioral of halfadder at 11( 145) + 0 on 46;
+file . "Mux2x1.vhd" "7471dc7d84222666c1792e48da4b8106ba718b52" "20240408101854.425":
+  entity mux2x1 at 1( 0) + 0 on 49;
+  architecture behavioral of mux2x1 at 14( 263) + 0 on 50;
+file . "CarrySelectAdder4Bit.vhd" "ede57df4e04f64283bb8bd107f5db80be74da28e" "20240408101745.578":
+  entity carryselectadder4bit at 1( 0) + 0 on 43;
+  architecture behavioral of carryselectadder4bit at 15( 355) + 0 on 44;
