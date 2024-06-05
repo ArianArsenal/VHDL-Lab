@@ -19,6 +19,7 @@ use -r for testbench file followed by --vcd=out.vcd
 check below for example:
 
 🎇**checks syntax**
+
 ghdl -s [filename].vhd
 
 
