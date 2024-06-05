@@ -23,24 +23,34 @@ check below for example:
 ghdl -s [filename].vhd
 
 
+
 🎇**analyzes file**
+
 ghdl -a [filename].vhd
 
 
 🎆**analyzes TestBench**
+
 ghdl -a [filename_tb].vhd
 
 
+
 🎆**evaluates TestBench**
+
 ghdl -e [filename_tb]
 
 
+
 🎆**runs TestBench**
+
 ghdl -r [filename_tb] --vcd=out.vcd
 
 
+
 🎈**Open vcd file in GTKWAVE**
+
 gtkwave out.vcd
+
 
 
 
