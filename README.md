@@ -1,7 +1,7 @@
 # VHDL-Lab
 A repository for VHDL codes for the Computer Architecture Course
 
-#How To Run VHDL Codes
+🧨How To Run VHDL Codes
 1) Install the [GHDL Compiler](https://github.com/ghdl/ghdl/releases)
 
 2) Add Path for GHDL in environment variables (for windows)
