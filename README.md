@@ -18,27 +18,27 @@ use -r for testbench file followed by --vcd=out.vcd
 
 check below for example:
 
-🎇__ checks syntax __
+🎇**checks syntax**
 ghdl -s [filename].vhd
 
 
-🎇__analyzes file__
+🎇**analyzes file**
 ghdl -a [filename].vhd
 
 
-🎆__analyzes TestBench__
+🎆**analyzes TestBench**
 ghdl -a [filename_tb].vhd
 
 
-🎆__evaluates TestBench__
+🎆**evaluates TestBench**
 ghdl -e [filename_tb]
 
 
-🎆__runs TestBench__
+🎆**runs TestBench**
 ghdl -r [filename_tb] --vcd=out.vcd
 
 
-🎈__Open vcd file in GTKWAVE__
+🎈**Open vcd file in GTKWAVE**
 gtkwave out.vcd
 
 
