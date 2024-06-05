@@ -1,0 +1,7 @@
+v 4
+file . "Divider.vhd" "5cd21e1470e4cb8febc5eb1feccad81da673de11" "20240512201526.682":
+  entity divider at 1( 0) + 0 on 19;
+  architecture behavior of divider at 16( 417) + 0 on 20;
+file . "Divider_tb.vhd" "b29b5bb173a0b3ecb6372f97ab913b8a5eae55b6" "20240512201526.710":
+  entity divider_tb at 1( 0) + 0 on 21;
+  architecture behavior of divider_tb at 7( 88) + 0 on 22;

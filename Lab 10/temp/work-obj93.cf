@@ -1,0 +1,7 @@
+v 4
+file . "CPU8BIT2_tb.vhd" "2476f7fe0a1c258f4eddedd7cee256b513f928b4" "20240527105207.930":
+  entity cpu8bit2_tb at 1( 0) + 0 on 19;
+  architecture behavior of cpu8bit2_tb at 8( 117) + 0 on 20;
+file . "CPU8BIT2.vhd" "548307bf6efd5e1e3bae9dae5ad0edd95f0e222c" "20240527105207.877":
+  entity cpu8bit2 at 69( 2554) + 0 on 17;
+  architecture cpu_arch of cpu8bit2 at 82( 2972) + 0 on 18;

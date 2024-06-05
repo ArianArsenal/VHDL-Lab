@@ -1,0 +1,7 @@
+v 4
+file . "RAM_Dual_tb.vhd" "9599b10ef2deb9bea0d08474f6f51634ad8c4f7f" "20240506071614.254":
+  entity ram_dual_tb at 2( 2) + 0 on 13;
+  architecture behavior of ram_dual_tb at 8( 93) + 0 on 14;
+file . "RAM_Dual.vhd" "86d3edd319eda6adc23cc68b76c35bf8c26bdb04" "20240506071614.231":
+  entity ram_dual at 2( 2) + 0 on 11;
+  architecture behavioral of ram_dual at 21( 613) + 0 on 12;

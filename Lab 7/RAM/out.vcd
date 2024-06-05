@@ -1,0 +1,97 @@
+$date
+  Mon May 06 11:04:41 2024
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module ram_tb $end
+$var reg 1 ! wr $end
+$var reg 1 " rd $end
+$var reg 4 # addr[3:0] $end
+$var reg 1 $ reset $end
+$var reg 8 % data_in[7:0] $end
+$var reg 8 & data_out[7:0] $end
+$scope module uut $end
+$var reg 1 ' wr $end
+$var reg 1 ( rd $end
+$var reg 4 ) addr[3:0] $end
+$var reg 1 * reset $end
+$var reg 8 + data_in[7:0] $end
+$var reg 8 , data_out[7:0] $end
+$var reg 1 - clk $end
+$comment data is not handled $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+0!
+0"
+b0000 #
+0$
+b00000000 %
+bUUUUUUUU &
+0'
+0(
+b0000 )
+0*
+b00000000 +
+bUUUUUUUU ,
+U-
+#100000000
+1$
+1*
+#120000000
+0$
+0*
+#140000000
+1$
+1*
+#160000000
+1!
+b00110010 %
+1'
+b00110010 +
+#180000000
+0!
+0'
+#200000000
+1"
+1(
+#220000000
+0"
+0(
+#240000000
+1!
+b1000 #
+b11111110 %
+1'
+b1000 )
+b11111110 +
+#260000000
+0!
+0'
+#280000000
+1"
+b1001 #
+1(
+b1001 )
+#300000000
+0"
+0(
+#320000000
+1"
+b1011 #
+1(
+b1011 )
+#340000000
+0"
+0(
