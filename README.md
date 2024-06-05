@@ -11,10 +11,14 @@ A repository for VHDL codes for the Computer Architecture Course
 4) use the following GHDL commands to synthesize and run your simulation
 
 # GHDL-Commands
-use -s for non-testbench files .vhd 
+use -s for non-testbench .vhd files 
+
 use -a for all .vhd files including 
+
 use -e for testbench file 
+
 use -r for testbench file followed by --vcd=out.vcd
+
 
 check below for example:
 
